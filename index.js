@@ -10,6 +10,6 @@
 function superbowlWin(history){
     const dub = history.find(({result}) => result === 'W');
     if (dub){
-    return win.year;
+    return dub.year;
     }
 }
